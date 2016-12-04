@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI" verbose="10" thread-count="10">
+<test name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+        <class name="uiTests.TestRunner"/>
+    </classes>
+</test>
+</suite>
